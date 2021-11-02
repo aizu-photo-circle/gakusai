@@ -3,7 +3,7 @@
 }
 
 body {
-    font-size: 1rem;
+    font-size: 14px;
 }
 
 .body {
@@ -18,7 +18,7 @@ body {
 }
 
 .top_var {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 80px;
     left: 0px;
@@ -27,11 +27,11 @@ body {
 }
 
 .aizu_u {
-    width: 93px;
+    width: 100%;
     color: rgba(0, 0, 0, 0.4399999976158142);
-    position: absolute;
-    top: 14px;
-    left: 152px;
+    position: relative;
+    top: -4px;
+    left: 15%;
     font-family: Ubuntu;
     font-weight: Regular;
     font-size: 14px;
@@ -40,11 +40,11 @@ body {
 }
 
 .s_name {
-    width: 200px;
+    width: 100%;
     color: rgba(0, 0, 0, 1);
-    position: absolute;
+    position: relative;
     top: 25px;
-    left: 150px;
+    left: 5%;
     font-family: Ubuntu;
     font-weight: Regular;
     font-size: 36px;
@@ -54,11 +54,11 @@ body {
 
 .aizu_dai {
     /* 会津大学 */
-    position: absolute;
-    width: auto;
+    position: relative;
+    width: 100%;
     height: 30px;
-    left: 412px;
-    top: 18px;
+    left: 8%;
+    top: -4px;
     font-family: Orbitron;
     font-style: normal;
     font-weight: normal;
@@ -71,11 +71,11 @@ body {
 
 .s_namae {
     /* フォトサークル */
-    position: absolute;
-    width: auto;
+    position: relative;
+    width: 100%;
     height: 28px;
-    left: 409px;
-    top: 31px;
+    left: 2%;
+    top: 25px;
     font-family: Orbitron;
     font-style: normal;
     font-weight: normal;
@@ -89,7 +89,7 @@ body {
 .cam_logo {
     width: 97px;
     height: 76px;
-    background: url("../images/v101_16.png");
+    background: url("../images/camera.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -103,9 +103,9 @@ body {
 .title {
     /* 蒼翔祭　会津大フォトサークル写真展 */
     position: absolute;
-    width: auto;
-    height: auto;
-    left: 312px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
     top: 132px;
     font-family: Ubuntu;
     font-style: normal;
