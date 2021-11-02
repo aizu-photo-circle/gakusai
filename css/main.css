@@ -26,25 +26,49 @@ body {
     background: #F4F4F4;
 }
 
+#group_aizu_u {
+    position: absolute;
+    vertical-align: middle;
+    height: 95%;
+    width: 20%;
+    top: 5%;
+    left: 10%;
+    display: inline;
+}
+
+#group_photo_c {
+    position: absolute;
+    vertical-align: middle;
+    height: 95%;
+    width: 20%;
+    top: 5%;
+    left: 30%;
+    display: inline;
+}
+
+
+
 .aizu_u {
+    position: absolute;
+    vertical-align: middle;
+    height: 30%;
     width: 100%;
     color: rgba(0, 0, 0, 0.4399999976158142);
-    position: relative;
-    top: -4px;
-    left: 15%;
     font-family: Ubuntu;
     font-weight: Regular;
-    font-size: 14px;
+    font-size: 14pt;
     opacity: 1;
     text-align: left;
 }
 
 .s_name {
+
+    position: absolute;
+    vertical-align: middle;
+    top: 30%;
+    height: 70%;
     width: 100%;
     color: rgba(0, 0, 0, 1);
-    position: relative;
-    top: 25px;
-    left: 5%;
     font-family: Ubuntu;
     font-weight: Regular;
     font-size: 36px;
@@ -53,34 +77,31 @@ body {
 }
 
 .aizu_dai {
+    position: absolute;
+    vertical-align: middle;
     /* 会津大学 */
-    position: relative;
-    width: 100%;
-    height: 30px;
-    left: 8%;
-    top: -4px;
+    height: 30%;
     font-family: Orbitron;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 90.2%;
+    font-size: 14pt;
+    /*line-height: 90.2%;*/
     /* or 13px */
     letter-spacing: 0.045em;
     color: rgba(0, 0, 0, 0.58);
 }
 
 .s_namae {
+    position: absolute;
+    vertical-align: middle;
     /* フォトサークル */
-    position: relative;
-    width: 100%;
-    height: 28px;
-    left: 2%;
-    top: 25px;
+    top: 30%;
+    height: 70%;
     font-family: Orbitron;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
-    line-height: 78.71%;
+    /*line-height: 78.71%;*/
     /* or 28px */
     letter-spacing: 0.045em;
     color: #000000;
