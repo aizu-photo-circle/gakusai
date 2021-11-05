@@ -1,112 +1,26 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-size: 14px;
-}
-
-.body {
-    width: 100%;
-    height: 4339px;
-    background: rgb(224, 224, 224);
-    opacity: 1;
+.head_cam_logo{
     position: relative;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
+    width: 97px;
+    height: 76px;
 }
 
-.top_var {
-    position: absolute;
-    width: 1440px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    background: #F4F4F4;
-}
-
-.aizu_u {
-    width: 100%;
-    color: rgba(0, 0, 0, 0.4399999976158142);
-    position: absolute;
-    top: 14px;
-    left: 152px;
-    font-family: Ubuntu;
-    font-weight: Regular;
-    font-size: 14px;
-    opacity: 1;
-    text-align: left;
-}
-
-.s_name {
-    width: 100%;
-    color: rgba(0, 0, 0, 1);
-    position: absolute;
-    top: 25px;
-    left: 150px;
-    font-family: Ubuntu;
-    font-weight: Regular;
+.head_name{
+    position: relative;
+    top: 10px;
     font-size: 36px;
-    opacity: 1;
-    text-align: left;
 }
 
-.aizu_dai {
-    /* 会津大学 */
-    position: absolute;
-    width: 100%;
-    height: 30px;
-    left: 412px;
-    top: 18px;
-    font-family: Orbitron;
-    font-style: normal;
-    font-weight: normal;
+.aizu_dai{
+    position: relative;
+    top:20px;
     font-size: 14px;
-    line-height: 90.2%;
-    /* or 13px */
-    letter-spacing: 0.045em;
     color: rgba(0, 0, 0, 0.58);
 }
 
-.s_namae {
-    /* フォトサークル */
-    position: absolute;
-    width: 100%;
-    height: 28px;
-    left: 409px;
-    top: 31px;
-    font-family: Orbitron;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 78.71%;
-    /* or 28px */
-    letter-spacing: 0.045em;
-    color: #000000;
-}
-
-.cam_logo {
-    width: 97px;
-    height: 76px;
-    background: url("../images/camera.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 2px;
-    left: 25px;
-    overflow: hidden;
-}
-
-.title {
-    /* 蒼翔祭　会津大フォトサークル写真展 */
-    position: absolute;
-    width: 100%;
-    height: 100%;
+.title{
+    position: relative;
     text-align: center;
-    top: 132px;
+    top:10px;
     font-family: Ubuntu;
     font-style: normal;
     font-weight: normal;
@@ -115,144 +29,29 @@ body {
     color: #000000;
 }
 
-.r_box {
-    /* Rectangle 6 */
-    position: absolute;
-    width: 261px;
+.r_box{
+    position: relative;
+    width:261px;
     height: 78px;
     left: 10px;
-    top: 266px;
     background: #FF6262;
     border-radius: 31px;
 }
 
-.box_text {
-    /* はじめに */
-    position: absolute;
-    width: 144px;
-    height: 42px;
-    left: 71px;
-    top: 287px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+.box_text{
+    position: relative;
+    top:10px;
+    left: 50px;
     font-size: 36px;
-    line-height: 42px;
     color: #FFFFFF;
 }
 
-.intro {
-    position: absolute;
-    width: 514px;
-    height: 147px;
-    left: 24px;
-    top: 375px;
+.intro{
+    position:relative;
+    top:5px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
-}
-
-.slide_position{
-    width: 773px;
-    height: 516px;
-    opacity: 1;
-    position: absolute;
-    top: 251px;
-    left: 588px;
-    overflow: hidden;
-}
-
-.v102_190 {
-    width: 516px;
-    height: 345px;
-    background: rgba(148, 97, 255, 0.5799999833106995);
-    opacity: 1;
-    position: absolute;
-    top: 944px;
-    left: 40px;
-    overflow: hidden;
-}
-
-.v102_192 {
-    width: 646px;
-    height: 432px;
-    background: rgba(14, 60, 177, 1);
-    opacity: 1;
-    position: absolute;
-    top: 1315px;
-    left: 42px;
-    overflow: hidden;
-}
-
-.v102_194 {
-    width: 646px;
-    height: 432px;
-    background: rgba(255, 97, 97, 1);
-    opacity: 1;
-    position: absolute;
-    top: 1315px;
-    left: 720px;
-    overflow: hidden;
-}
-
-.v102_193 {
-    width: 516px;
-    height: 345px;
-    background: rgba(167, 255, 145, 1);
-    opacity: 1;
-    position: absolute;
-    top: 944px;
-    left: 845px;
-    overflow: hidden;
-}
-
-.v102_191 {
-    width: 345px;
-    height: 231px;
-    background: rgba(185, 255, 225, 1);
-    opacity: 1;
-    position: absolute;
-    top: 944px;
-    left: 819px;
-    overflow: hidden;
-}
-
-.v102_201 {
-    width: 773px;
-    height: 98px;
-    background: url("../images/v102_201.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 798px;
-    left: 588px;
-    overflow: hidden;
-}
-
-.v102_199 {
-    width: 773px;
-    height: 98px;
-    background: rgba(0, 0, 0, 0.550000011920929);
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-}
-
-.v102_200 {
-    width: 144px;
-    color: rgba(0, 0, 0, 1);
-    position: absolute;
-    top: 8px;
-    left: 54px;
-    font-family: Ubuntu;
-    font-weight: Regular;
-    font-size: 36px;
-    opacity: 1;
-    text-align: left;
 }

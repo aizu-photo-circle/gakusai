@@ -2,11 +2,17 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--bootstrap css-->
+    <link href="bootstrap-5.0.0-beta1-dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="bootstrap-5.0.0-beta1-dist/js/"></script>
+    <!--main.css-->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link href="./css/main.css" rel="stylesheet" />
-
+    <link href="css/main.css" rel="stylesheet" />
+    <!--slideshow-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
@@ -19,37 +25,54 @@
             });
         });
     </script>
+    <!--ここまで-->
 
-    <title>Document</title>
+    <title>PhotoCircle</title>
 </head>
 
 <body>
-    <div class="body">
-        <div class="top_var"><span class="aizu_u">Aizu university</span><span class="s_name">Photo Circle</span>
-            <span class="aizu_dai">会津大学</span>
-            <span class="s_namae">フォトサークル</span>
-            <div class="cam_logo"></div><span class="aizu_dai">
-
-            </span>
-        </div><span class="title">蒼翔祭　会津大フォトサークル写真展</span>
-        <div class="r_box"></div><span class="box_text">はじめに</span><span
-            class="intro">　こんにちは。私たちフォトサークルは写真が大好きなひとたちのゆるいコミュニティです。
-            写真に興味ある人もそうでない人も、この写真展で写真の楽しさを伝えられたらと思います。（サークル代表）</span>
-        <div class="slide_position">
-            <div class="slider">
-                <image src="images/sample1.jpg" width="773px" height="516px"></image>
-                <image src="images/sample2.jpg" width="773px" height="516px"></image>
-                <image src="images/sample3.jpg" width="773px" height="516px"></image>
+    <!--Header-->
+    <div class="container-fluid" style="background-color: rgb(224, 224, 224)">
+        <div class="row" style="background-color: #F4F4F4;">
+            <div class="col-md-3">
+                <img src="images/camera.png" class="head_cam_logo">
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <div class="aizu_dai">AizuUniversity</div>
+                    <div class="head_name">PhotoCircle</div>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div>
+                    <div class="aizu_dai">会津大学</div>
+                    <div class="head_name">フォトサークル</div>
+                </div>
             </div>
         </div>
-        <div class="v102_190"></div>
-        <div class="v102_192"></div>
-        <div class="v102_194"></div>
-        <div class="v102_193"></div>
-        <div class="v102_191"></div>
-        <div class="v102_201">
-            <div class="v102_199"></div><span class="v102_200">タイトル
-                by 名前</span>
+        <!--Body-->
+        <div class="row" style="height:150px">
+            <div class="col-md-12">
+                <div class="title">蒼翔祭　会津大フォトサークル写真展</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="r_box">
+                    <div class="box_text">はじめに</div>
+                </div>
+                <div class="intro">
+                    こんにちは。私たちフォトサークルは写真が大好きなひとたちのゆるいコミュニティです。
+                    写真に興味ある人もそうでない人も、この写真展で写真の楽しさを伝えられたらと思います。（サークル代表）
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="slider">
+                    <image src="images/sample1.jpg" width="773px" height="516px"></image>
+                    <image src="images/sample2.jpg" width="773px" height="516px"></image>
+                    <image src="images/sample3.jpg" width="773px" height="516px"></image>
+                </div>
+            </div>
         </div>
     </div>
 </body>
