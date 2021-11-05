@@ -6,6 +6,20 @@
     <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     <link href="./css/main.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+    </script>
+
     <title>Document</title>
 </head>
 
@@ -18,9 +32,16 @@
 
             </span>
         </div><span class="title">蒼翔祭　会津大フォトサークル写真展</span>
-        <div class="r_box"></div><span class="box_text">はじめに</span><span class="intro">　こんにちは。私たちフォトサークルは写真が大好きなひとたちのゆるいコミュニティです。
+        <div class="r_box"></div><span class="box_text">はじめに</span><span
+            class="intro">　こんにちは。私たちフォトサークルは写真が大好きなひとたちのゆるいコミュニティです。
             写真に興味ある人もそうでない人も、この写真展で写真の楽しさを伝えられたらと思います。（サークル代表）</span>
-        <div class="v102_189"></div>
+        <div class="slide_position">
+            <div class="slider">
+                <image src="images/sample1.jpg" width="773px" height="516px"></image>
+                <image src="images/sample2.jpg" width="773px" height="516px"></image>
+                <image src="images/sample3.jpg" width="773px" height="516px"></image>
+            </div>
+        </div>
         <div class="v102_190"></div>
         <div class="v102_192"></div>
         <div class="v102_194"></div>
